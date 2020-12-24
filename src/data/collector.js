@@ -162,6 +162,9 @@ var collector = {
       });
     };
     // find images; part 1/1
+    /**
+     * @type {(Record<'src' | 'page', string> | Partial<HTMLImageElement>)[]}
+     */
     let images = [...document.images].map(img => ({
       width: img.width,
       height: img.height,

@@ -1,0 +1,25 @@
+{
+    "include": ["globals.d.ts", "."],
+    "compilerOptions":
+    {
+        "noEmit": true,
+
+        "target": "ESNext",
+        "lib":
+        [
+            "DOM",
+            "DOM.Iterable",
+            "ESNext",
+            "WebWorker"
+        ],
+        "types": ["template-literal-queryselectors", "chrome"],
+
+        "checkJs": true,
+        "skipLibCheck": true
+    },
+    "typeAcquisition":
+    {
+        "enable": true,
+        "include": ["template-literal-queryselectors"]
+    }
+}
