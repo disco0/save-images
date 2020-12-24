@@ -1,0 +1,26 @@
+{
+    "include":
+    [
+        "./src/*.d.ts"
+    ],
+    "compilerOptions":
+    {
+        "strict": true,
+        "alwaysStrict": true,
+        "strictBindCallApply": true,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+
+        "moduleResolution": "Node",
+
+        "forceConsistentCasingInFileNames": true,
+
+        "lib":
+        [
+            "DOM",
+            "DOM.Iterable",
+            "ES5"
+        ]
+    }
+}

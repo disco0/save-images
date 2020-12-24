@@ -1,0 +1,21 @@
+{
+    "extends": "../../tsconfig.json",
+    "include":
+    [
+        "./*.ts"
+    ],
+
+    "compilerOptions":
+    {
+        "noEmit": true,
+
+        /**
+         * Added to test typing with iteration, e.g.
+         * ``` ts
+         * [...document.querySelectorAll('a > a[class^=hljs]')].forEach // ...
+         * ```
+         */
+
+        "target": "ES2020"
+    }
+}

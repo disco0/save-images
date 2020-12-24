@@ -1,0 +1,8 @@
+{
+  "name": "save-images-extension",
+  "devDependencies": {
+    "@types/chrome": "^0.0.127",
+    "template-literal-queryselectors": "github:disco0/template-literal-queryselectors#main",
+    "webextension-polyfill-ts": "^0.22.0"
+  }
+}
