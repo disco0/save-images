@@ -202,7 +202,7 @@ class InZIP
         let hex = "";
         for(let i = 0; i < bytes; i++)
         {
-            hex += String.fromCharCode(dec & 0xff);
+            hex += String.fromCharCode(/** @type {string & number} */(dec) & 0xff);
             dec = dec >>> 8;
         }
         return hex;

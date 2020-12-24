@@ -13,13 +13,13 @@
             "WebWorker"
         ],
         "types": ["template-literal-queryselectors", "chrome"],
+        "typeRoots": ["./node_modules/@types"],
 
         "checkJs": true,
         "skipLibCheck": true
     },
     "typeAcquisition":
     {
-        "enable": true,
-        "include": ["template-literal-queryselectors"]
+        "enable": true
     }
 }
